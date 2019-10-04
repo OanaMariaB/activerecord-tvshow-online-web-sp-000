@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-  Show.highest_rating.order(:rating).first
+  Show.highest_rating.ord(:rating).first
   end
 
 end#class
